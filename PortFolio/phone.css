@@ -1,0 +1,123 @@
+body {
+    font-size: 14px;
+}
+.navbar {
+    padding: 10px;
+}
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.navbar ul li {
+    margin: 5px;
+}
+.navbar ul li a {
+    padding: 8px 15px;
+    display: block; 
+}
+
+/* HOME SECTION */
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right-cont {
+    display: none;
+}
+.content {
+    text-align: center;
+    padding: 0 10px;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; 
+}
+.circle-logo {
+    visibility: hidden;
+}
+.bn {
+    margin-bottom: 20px;
+}
+.design .circle {
+    left:50%;
+    top: 5%;
+    transform: none ;
+}
+.circle:nth-child(1){
+    width: 6rem;
+}
+.circle:nth-child(2){
+    background-color:white;
+    width: 6rem;
+    background-image: url("assets/logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* ABOUT SECTION */
+#about {
+    text-align: center; 
+    padding: 20px; 
+}
+#pic {
+    display: block; 
+    margin: 0 auto;
+}
+#pic img {
+    width: 100%;
+    height: auto;
+}
+#intro {
+    text-align: center;
+}
+
+/* SKILLS SECTION */
+#skills {
+    padding: 20px;
+}
+.container {
+    grid-template-columns: repeat(1, 1fr); 
+    padding: 1rem; 
+}
+
+/* PROJECTS SECTION */
+#projects {
+    padding: 20px;
+}
+.box {
+    width: 100%; 
+    margin: 10px 0; 
+}
+
+/* RESUME SECTION */
+#resume {
+    padding: 20px;
+}
+
+/* CONTACT SECTION */
+#contact {
+    padding: 20px;
+    box-sizing: border-box;
+}
+.form {
+    width: 100%; 
+    max-width: 400px; 
+}
+.input,
+#msg,
+#send {
+    width: 100%;
+    box-sizing: border-box;
+}
+#footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
